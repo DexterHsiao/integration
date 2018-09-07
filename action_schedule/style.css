@@ -1,0 +1,27 @@
+body{
+    text-align:center;
+}
+
+table{
+    border-collapse: collapse; //表格邊框與儲存格邊框重疊（預設值為 separate);
+    width:60%;
+    margin: auto; //或是用50px 180px 取代;
+    font-size:2em;
+    }
+
+ td{
+    border:4px solid blue;
+   }
+ 
+ td.even{
+    /* border-bottom: 2px dashed brown; */
+    background-color: lightgoldenrodyellow;
+    /*另可參考 https://pjchender.blogspot.com/2015/03/jquery_8.html的語法 */
+   }
+
+th{
+    
+     border:5px ridge brown ;
+     background-color: coral;
+     color: blue
+   }
